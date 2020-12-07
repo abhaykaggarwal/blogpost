@@ -91,35 +91,18 @@ Figure 7 above captures an example time series of cost/MWh per day over 2019 giv
 
 Therefore, we set three separate cases for evaluation depicted below in Figure 8: 
 
-
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image6.png "image_tooltip")
-
+<img src="images/figure_7.png" alt="Figure 8" width="600">
 
 We noticed that a nonzero dr_cost has a reasonably significantly negative impact upon our total profitability, reducing it by ~$1.95/MWh. However, our nonzero cprice, while it does reduce our total profitability, is not nearly as negatively impactful as our dr_cost, reducing our total profitability by ~$0.09/MWh. This would largely be attributed to the significant magnitudinal difference between our marginal emissions costs versus our dalmp costs. Likewise, as cprice increases from 2 to 8, our total profitability decreases by ~$0.08/MWh as expected.
 
 When considering the distributions of charging hours versus discharging hours, varying inputs of cprice do not typically have significant changes. However, with respect to varying inputs of dr_cost, the distribution of charging hours exhibits significant changes.
 
 
-
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image7.png "image_tooltip")
-
+<img src="images/figure_9.png" alt="Figure 9" width="600">
 
 In Figure 9 above, we can see that with respect to our baseline case, charging hours are typically uniform from 12 am to 4 pm, dropping off approaching 7 pm. Discharge hours range from 5 pm to 8 pm, with the mode typically around ~7 pm.
 
-
-
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image8.png "image_tooltip")
-
+<img src="images/figure_10.png" alt="Figure 10" width="600">
 
 In contrast with Figure 9, Figure 10 above depicts the nonzero dr_cost case. We observe that there is an exacerbated dip at 6-7 am, with more rounded drop offs around the edges. This would correspond with the coinciding twin peak behavior of the dalmp that also exhibits these spikes at ~6-7 am and ~6-7 pm. These two minimums and roundings at the edges are further decreased and pronounced as we increase our dr_cost. 
 
