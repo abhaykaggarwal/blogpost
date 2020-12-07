@@ -47,9 +47,9 @@ When conducting t-testing on this data, to see if the differences in averages fo
 *   **All seasons had a statistically significant differences** amongst themselves, with **p-values less than 0.001** when comparing any pair of seasons
 *   All the periods of the day, listed in the footnotes, were also **statistically significant** in their differences, which was observed by the troughs and valleys based on time of day
 
-_Temperature and Emissions _
+_Temperature and Emissions_
 
-We were also interested in modeling the relationship between temperature and daily CO<sub>2</sub> emissions. We conducted a linear regression with total daily CO<sub>2</sub> emissions(demand method) as the independent variable, and used degree-day (distance between daily temperature and 68) and the emissions for each of the previous 7 days (lag1-7 variables) as the dependent variables. The regression showed that a **one unit increase in degree-day is associated with an approximately four ton increase in **CO<sub>2<strong> emissions</strong></sub>.  
+We were also interested in modeling the relationship between temperature and daily CO<sub>2</sub> emissions. We conducted a linear regression with total daily CO<sub>2</sub> emissions(demand method) as the independent variable, and used degree-day (distance between daily temperature and 68) and the emissions for each of the previous 7 days (lag1-7 variables) as the dependent variables. The regression showed that a **one unit increase in degree-day is associated with an approximately four ton increase in CO<sub>2<strong> emissions</strong></sub>.**  
 
 **Optimization**
 
