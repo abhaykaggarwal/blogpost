@@ -63,8 +63,7 @@ To do so, the key values that were incorporated for the use of the optimizer wer
 
 
 <p align="center">
-  <img src="images/figure_3.png" width="500">
-  <img src="images/figure_4.png" width="500">
+  <img src="images/figure_3.png" width="500"><img src="images/figure_4.png" width="500">
 </p>
 
 
@@ -90,7 +89,7 @@ Figure 7 above captures an example time series of cost/MWh per day over 2019 giv
 
 Therefore, we set three separate cases for evaluation depicted below in Figure 8: 
 
-<img src="images/figure_7.png" alt="Figure 8" width="600">
+<img src="images/figure_8.png" alt="Figure 8" width="600">
 
 We noticed that a nonzero dr_cost has a reasonably significantly negative impact upon our total profitability, reducing it by ~$1.95/MWh. However, our nonzero cprice, while it does reduce our total profitability, is not nearly as negatively impactful as our dr_cost, reducing our total profitability by ~$0.09/MWh. This would largely be attributed to the significant magnitudinal difference between our marginal emissions costs versus our dalmp costs. Likewise, as cprice increases from 2 to 8, our total profitability decreases by ~$0.08/MWh as expected.
 
