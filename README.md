@@ -8,13 +8,13 @@ Pavan Gowda
 
 Brandon Zhong
 
-**EBCE CO2 Emissions**
+# EBCE CO2 Emissions
 
 As millions of acres continue to burn and as Pacific sea levels continue to rise, the need for GHG reductions in California has become self-evident.  In the Bay Area, East Bay Community Energy (EBCE) has played a vital role in helping Alameda County reduce its CO<sub>2</sub> emissions by providing cleaner energy at competitive rates, which allows customers to simultaneously save money and the environment.  
 
 This semester we worked closely with the EBCE Data Science team to compare different CO2 accounting methods, visualize CO<sub>2</sub> emission trends for 2019 and optimized the performance of batteries for the purposes of distributing power to meet demand, given forecasted marginal emissions and day-ahead locational marginal pricing (da_lmp).
 
-**Accounting Methods**
+## Accounting Methods
 
 To calculate hourly CO<sub>2</sub> emissions, we tried two different accounting methods- a Demand Method and a Supply Method and used data provided by EBCE. 
 
@@ -34,9 +34,9 @@ Figure 1 shows that version 1 supply and demand emissions factors are a magnitud
 
 <img src="images/figure_1.jpg" align="center" width="600">
 
-**Initial Analyses and Relationships**
+## Initial Analyses and Relationships
 
-_T-Testing_
+### T-Testing
 
 To gain an overhead view of the system load emissions data, and understand different correlations, we created categorizations of the data by time of day, season, day of the week. We then visualized these categorizations over the different years in question (2018, 2019, 2020).
 
@@ -51,11 +51,11 @@ When conducting t-testing on this data, to see if the differences in averages fo
 *   **All seasons had a statistically significant differences** amongst themselves, with **p-values less than 0.001** when comparing any pair of seasons
 *   All the periods of the day, listed in the footnotes, were also **statistically significant** in their differences, which was observed by the troughs and valleys based on time of day
 
-_Temperature and Emissions_
+### Temperature and Emissions
 
 We were also interested in modeling the relationship between temperature and daily CO<sub>2</sub> emissions. We conducted a linear regression with total daily CO<sub>2</sub> emissions(demand method) as the independent variable, and used degree-day (distance between daily temperature and 68) and the emissions for each of the previous 7 days (lag1-7 variables) as the dependent variables. The regression showed that a **one unit increase in degree-day is associated with an approximately four ton increase in CO<sub>2<strong> emissions</strong></sub>.**  
 
-**Optimization**
+## Optimization
 
 For our optimization objective, we intended to optimize over the way in which we charge and discharge our battery over a day for the purposes of supplying energy that was optimized over both emissions and cost.
 
@@ -106,19 +106,19 @@ In Figure 9 above, we can see that with respect to our baseline case, charging h
 
 In contrast with Figure 9, Figure 10 above depicts the nonzero dr_cost case. We observe that there is an exacerbated dip at 6-7 am, with more rounded drop offs around the edges. This would correspond with the coinciding twin peak behavior of the dalmp that also exhibits these spikes at ~6-7 am and ~6-7 pm. These two minimums and roundings at the edges are further decreased and pronounced as we increase our dr_cost. 
 
-**Conclusions**
+## Conclusions
 
-_Emissions_
+### Emissions
 
 There are clear trends in understanding how emissions from the EBCE’s service area relate to external factors and how accounting methods can impact our measurement of those emissions. Seasonal and temperature shifts have a statistically significant impact on system load emissions, and in the future, that relationship should be studied further to understand the causes of those correlations. Namely, there was an observed one unit increase in degree-day that is associated with an approximately four ton increase in CO<sub>2</sub> emissions. 
 
 The differences between the Demand and Supply methods of measuring system load emissions are also pronounced (namely due to the Supply Method incorporating EBCE’s carbon offsets), and it will be important to note these differences in accounting when studying emissions mitigation strategies. 
 
-_Optimizations_
+### Optimizations
 
 From the results of our explorations into implementing an optimizer, we see that within our model, cprice must be reasonably higher with respect to dr_cost in order to better emphasize emissions as a factor into the optimization costs. Likewise, increasing dr_costs corresponds to significant declines in total profitability, as well as changes to patterns of charging hours. Optimal hours of charging typically range from 12 am to 4 pm, while dropping off while approaching 7pm, and Besides this, in our model’s best case scenario where there are nonexistent or negligible costs of operating the battery and nonexistent or negligible costs to marginal emissions, we can expect to see a total profitability of ~$15.58/MWh over 2019.
 
-**Footnotes:**
+## Footnotes
 
 
 
@@ -134,7 +134,7 @@ From the results of our explorations into implementing an optimizer, we see that
 3. **ACS**
     1. An asset-controlling supplier (ACS) is a specific type of electric power entity (EPE) approved and registered by CARB under the [Regulation for the Mandatory Reporting of Greenhouse Gas Emissions (MRR)](https://ww2.arb.ca.gov/mrr-regulation). 
 
-**Cited Sources:**
+## Cited Sources
 
 [California Air Resources Board: Mandatory GHG Reporting - Asset Controlling Supplier](https://ww2.arb.ca.gov/mrr-acs)
 
