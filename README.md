@@ -62,16 +62,6 @@ For our optimization objective, we intended to optimize over the way in which we
 To do so, the key values that were incorporated for the use of the optimizer were the hourly values of day-ahead locational marginal pricing [$/MWh] (dalmp) and marginal emissions rate [CO<sub>2</sub>lbs/MWh] (moer) for 2019. We then applied this data, split by the day, to scipy’s **_optimize_** function from their **_minimize_** package.
 
 
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 <p align="center">
   <img src="images/figure_3.png" width="500">
   <img src="images/figure_4.png" width="500">
@@ -83,27 +73,18 @@ For reference, figures 3 and 4 above depict our dalmp and moer values for all of
 The parameters that we were interested in modulating over different scenarios were primarily carbon price [$/CO<sub>2</sub>lbs] (cprice) and the battery’s operational costs [$/MWh] (dr_cost). One of the metrics we used to evaluate how these parameters affected our performance was by evaluating the total profitability over 2019 as a value of {(total $ cost)/(total MWh)} over all days.
 
 
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
-
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image4.png "image_tooltip")
+<p align="center">
+  <img src="images/figure_5.png" width="500">
+  <img src="images/figure_6.png" width="500">
+</p>
 
 
 Figures 5 and 6 above capture random days of charge and discharge schedules that were outputted by the optimizer.
 
 
 
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<img src="images/figure_7.png" alt="Figure 7" width="600">
 
-
-![alt_text](images/image5.png "image_tooltip")
 
 
 Figure 7 above captures an example time series of cost/MWh per day over 2019 given the fixed parameters of cprice = 0 and dr_cost = 0.
