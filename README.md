@@ -32,7 +32,7 @@ Once we calculated CO<sub>2</sub> emissions, we then calculated EBCE’s hourly 
 
 Figure 1 shows that version 1 supply and demand emissions factors are a magnitude smaller than Version 2 emission factors. Further analysis of version 1 shows that the two accounting methods produced nearly identical results until December where Supply method emissions dropped drastically. This was due to the inclusion of ACS<sup>3</sup> Specified Energy. Additionally, the impacts of the accounting procedures can be seen in the emissions factor with version2, as Supply method emissions factors were much lower than Demand method emission factors. This is due to the differences in how we removed renewable energy between the two methods.
 
-<img src="images/figure_1.jpg" width="48">
+<img src="images/figure_1.jpg" width="500">
 
 **Initial Analyses and Relationships**
 
