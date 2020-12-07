@@ -73,8 +73,8 @@ To do so, the key values that were incorporated for the use of the optimizer wer
 
 
 <p align="center">
-  <img src="figure_3.png" width="500">
-  <img src="figure_4.png" width="500">
+  <img src="images/figure_3.png" width="500">
+  <img src="images/figure_4.png" width="500">
 </p>
 
 
