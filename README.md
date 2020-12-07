@@ -32,7 +32,7 @@ Once we calculated CO<sub>2</sub> emissions, we then calculated EBCE’s hourly 
 
 Figure 1 shows that version 1 supply and demand emissions factors are a magnitude smaller than Version 2 emission factors. Further analysis of version 1 shows that the two accounting methods produced nearly identical results until December where Supply method emissions dropped drastically. This was due to the inclusion of ACS<sup>3</sup> Specified Energy. Additionally, the impacts of the accounting procedures can be seen in the emissions factor with version2, as Supply method emissions factors were much lower than Demand method emission factors. This is due to the differences in how we removed renewable energy between the two methods.
 
-<img src="images/figure_1.jpg" align="center" width="500">
+<img src="images/figure_1.jpg" align="center" width="600">
 
 **Initial Analyses and Relationships**
 
@@ -42,7 +42,7 @@ To gain an overhead view of the system load emissions data, and understand diffe
 
 Below, in Figure 2, this is a visualization of the average 2019 system load emissions (in CO<sub>2</sub>) at each hour (divided by season). Some standout observations include system load emissions being higher in winter at all hours, with summer emissions generally being lower than shoulder emissions<sup>1</sup>. 
 
-![Figure 2](images/figure_2.png)
+<img src="images/figure_2.png" alt="Figure 2" width="600">
 
 When conducting t-testing on this data, to see if the differences in averages for the seasons were statistically significant, and whether the different periods of the day<sup>2</sup> had statistically significant differences, we found fairly notable results:
 
