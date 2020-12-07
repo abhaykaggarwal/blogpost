@@ -72,7 +72,10 @@ To do so, the key values that were incorporated for the use of the optimizer wer
 <p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image2.png "image_tooltip")
+<p align="center">
+  <img src="figure_3.png" width="500">
+  <img src="figure_4.png" width="500">
+</p>
 
 
 For reference, figures 3 and 4 above depict our dalmp and moer values for all of 2019 grouped by the hour and aggregated into an average to get a general idea of what a day’s dalmp and moer values might look like.
