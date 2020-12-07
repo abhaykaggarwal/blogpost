@@ -160,7 +160,7 @@ From the results of our explorations into implementing an optimizer, we see that
     2. Morning Peak: Hours 6-8
     3. Day: Hours 9-15
     4. Peak : Hours 16-24
-3. **ACS **
+3. **ACS**
     1. An asset-controlling supplier (ACS) is a specific type of electric power entity (EPE) approved and registered by CARB under the [Regulation for the Mandatory Reporting of Greenhouse Gas Emissions (MRR)](https://ww2.arb.ca.gov/mrr-regulation). 
 
 **Cited Sources:**
