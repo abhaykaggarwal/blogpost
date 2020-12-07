@@ -74,8 +74,7 @@ The parameters that we were interested in modulating over different scenarios we
 
 
 <p align="center">
-  <img src="images/figure_5.png" width="500">
-  <img src="images/figure_6.png" width="500">
+  <img src="images/figure_5.png" width="500"><img src="images/figure_6.png" width="500">
 </p>
 
 
