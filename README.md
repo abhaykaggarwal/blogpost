@@ -156,12 +156,12 @@ From the results of our explorations into implementing an optimizer, we see that
     2. Shoulder - March, April, October, November
     3. Winter - December thru February
 2. **Time of Day Divisions**
-    4. Morning: Hours 0-5
-    5. Morning Peak: Hours 6-8
-    6. Day: Hours 9-15
-    7. Peak : Hours 16-24
+    1. Morning: Hours 0-5
+    2. Morning Peak: Hours 6-8
+    3. Day: Hours 9-15
+    4. Peak : Hours 16-24
 3. **ACS **
-    8. An asset-controlling supplier (ACS) is a specific type of electric power entity (EPE) approved and registered by CARB under the [Regulation for the Mandatory Reporting of Greenhouse Gas Emissions (MRR)](https://ww2.arb.ca.gov/mrr-regulation). 
+    1. An asset-controlling supplier (ACS) is a specific type of electric power entity (EPE) approved and registered by CARB under the [Regulation for the Mandatory Reporting of Greenhouse Gas Emissions (MRR)](https://ww2.arb.ca.gov/mrr-regulation). 
 
 **Cited Sources:**
 
