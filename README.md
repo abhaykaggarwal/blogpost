@@ -10,9 +10,9 @@ Brandon Zhong
 
 # EBCE CO2 Emissions
 
-As millions of acres continue to burn and as Pacific sea levels continue to rise, the need for GHG reductions in California has become self-evident.  In the Bay Area, East Bay Community Energy (EBCE) has played a vital role in helping Alameda County reduce its CO<sub>2</sub> emissions by providing cleaner energy at competitive rates, which allows customers to simultaneously save money and the environment.  
+As millions of acres continue to burn and as Pacific sea levels continue to rise, the need for greenhouse gas (GHG) reductions in California has become self-evident.  In the Bay Area, East Bay Community Energy (EBCE) has played a vital role in helping Alameda County reduce its CO<sub>2</sub> emissions by providing cleaner energy at competitive rates, which allows customers to simultaneously save money and reduce their impacy on the environment.  
 
-This semester we worked closely with the EBCE Data Science team to compare different CO2 accounting methods, visualize CO<sub>2</sub> emission trends for 2019 and optimized the performance of batteries for the purposes of distributing power to meet demand, given forecasted marginal emissions and day-ahead locational marginal pricing (da_lmp).
+This semester we worked closely with the EBCE Data Science team to compare different CO<sub>2</sub> accounting methods, visualize CO<sub>2</sub> emission trends for 2019 and optimized the performance of batteries for the purposes of distributing power to meet demand, given forecasted marginal emissions and day-ahead locational marginal pricing (da_lmp).
 
 ## Accounting Methods
 
@@ -53,7 +53,7 @@ When conducting t-testing on this data, to see if the differences in averages fo
 
 ### Temperature and Emissions
 
-We were also interested in modeling the relationship between temperature and daily CO<sub>2</sub> emissions. We conducted a linear regression with total daily CO<sub>2</sub> emissions(demand method) as the independent variable, and used degree-day (distance between daily temperature and 68) and the emissions for each of the previous 7 days (lag1-7 variables) as the dependent variables. The regression showed that a **one unit increase in degree-day is associated with an approximately four ton increase in CO<sub>2<strong> emissions</strong></sub>.**  
+We were also interested in modeling the relationship between temperature and daily CO<sub>2</sub> emissions. We conducted a linear regression with total daily CO<sub>2</sub> emissions(demand method) as the independent variable, and used degree-day (distance between daily temperature and 68) and the emissions for each of the previous 7 days (lag1-7 variables) as the dependent variables. The regression showed that a **one unit increase in degree-day is associated with an approximately four ton increase in CO<sub>2</sub> emissions.**  
 
 ## Optimization
 
