@@ -40,7 +40,9 @@ _T-Testing_
 
 To gain an overhead view of the system load emissions data, and understand different correlations, we created categorizations of the data by time of day, season, day of the week. We then visualized these categorizations over the different years in question (2018, 2019, 2020).
 
-At the left, in Figure 2, this is a visualization of the average 2019 system load emissions (in CO<sub>2</sub>) at each hour (divided by season). Some standout observations include system load emissions being higher in winter at all hours, with summer emissions generally being lower than shoulder emissions<sup>1</sup>. 
+Below, in Figure 2, this is a visualization of the average 2019 system load emissions (in CO<sub>2</sub>) at each hour (divided by season). Some standout observations include system load emissions being higher in winter at all hours, with summer emissions generally being lower than shoulder emissions<sup>1</sup>. 
+
+![Figure 2](images/figure_2.png)
 
 When conducting t-testing on this data, to see if the differences in averages for the seasons were statistically significant, and whether the different periods of the day<sup>2</sup> had statistically significant differences, we found fairly notable results:
 
