@@ -48,7 +48,7 @@ When conducting t-testing on this data, to see if the differences in averages fo
 
 
 
-*   **All seasons had a statistically significant differences** amongst themselves, with **p-values less than 0.001** when comparing any pair of seasons
+*   **All seasons had statistically significant differences** amongst themselves, with **p-values less than 0.001** when comparing any pair of seasons
 *   All the periods of the day, listed in the footnotes, were also **statistically significant** in their differences, which was observed by the troughs and valleys based on time of day
 
 ### Temperature and Emissions
