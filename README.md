@@ -8,6 +8,8 @@ Pavan Gowda
 
 Brandon Zhong
 
+[Final Presentation Slides](https://docs.google.com/presentation/d/1lkici9MwaAN0F7h1o_5fEBMWkgntbqa_lomttmGVMf0/edit?usp=sharing)
+
 # EBCE CO<sub>2</sub> Emissions
 
 As millions of acres continue to burn and as Pacific sea levels continue to rise, the need for greenhouse gas (GHG) reductions in California has become self-evident.  In the Bay Area, East Bay Community Energy (EBCE) has played a vital role in helping Alameda County reduce its CO<sub>2</sub> emissions by providing cleaner energy at competitive rates, which allows customers to simultaneously save money and reduce their impacy on the environment.  
